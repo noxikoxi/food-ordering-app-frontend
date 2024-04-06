@@ -40,7 +40,7 @@ export const useGetMyUser = () => {
     return {
         currentUser,
         isLoading
-    }
+    };
 
 };
 
