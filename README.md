@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+### Work in progress
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Food ordering plaform
 
-Currently, two official plugins are available:
+Uses: TypeScript, React, Auth0 for authentication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend: https://github.com/noxikoxi/food-ordering-app-backend
 
-## Expanding the ESLint configuration
+At the moment application allows to create user account, update user informations, create and update Restaurants.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You may check it on: https://food-ordering-app-frontend-szqq.onrender.com
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+First interaction with backend after long inactivity may take up to 1 minute, runs normally after.
