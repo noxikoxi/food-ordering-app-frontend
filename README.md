@@ -1,5 +1,3 @@
-### Work in progress
-
 ## Food ordering plaform
 
 Uses: TypeScript, React, Auth0 for authentication
